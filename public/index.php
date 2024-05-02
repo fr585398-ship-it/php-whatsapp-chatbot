@@ -84,7 +84,7 @@ function setHook()
                     'url' => $config['botUrl'],
                     'events' => [
                         [
-                            'type' => 'message',
+                            'type' => 'messages',
                             'method' => 'post'
                         ]
                     ],
